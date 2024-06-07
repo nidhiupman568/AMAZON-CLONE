@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AMAZON CLONE-BY NIDHI UPMAN</title>
+
+    <!-- This code is needed for responsive design to work.
+      (Responsive design = make the website look good on
+      smaller screen sizes like a phone or a tablet). -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Load a font called Roboto from Google Fonts. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <!-- Here are the CSS files for this page. -->
+    <link rel="stylesheet" href="styles/shared/general.css">
+    <link rel="stylesheet" href="styles/shared/amazon-header.css">
+    <link rel="stylesheet" href="styles/pages/amazon.css">
+    <link rel="stylesheet" href="slide.css">
+  </head>
+  <body>
+    <div class="amazon-header">
+      <div class="amazon-header-left-section">
+        <a href="amazon.html" class="header-link">
+          <img class="amazon-logo"
+            src="images/amazon-logo-white.png">
+          <img class="amazon-mobile-logo"
+            src="images/amazon-mobile-logo-white.png">
+        </a>
+        <div class="location">
+          <div>
+          <span><i class="fa-solid fa-location-dot"></i></span>
+          </div>
+          <div>
+            <a href="https://www.amazon.in/a/addresses/add?ref=ya_address_book_add_button" target="_blank">
+              <p class="h5">Deliver to Nidhi Upman</p>
+              <p class="h6">Omkareshwar Colony Township Mathura(U.P)</p>
+            </a>
+
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="amazon-header-middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+
+        <button class="search-button">
+          <img class="search-icon" src="images/icons/search-icon.png">
+        </button>
+      </div>
+
+      <div class="amazon-header-right-section">
+        <div class="signIn ">
+          <a href="https://www.amazon.in/gp/css/homepage.html?ref_=nav_youraccount_btn"target="_blank">Sign In</a>
+        </div>
+        <a class="orders-link header-link" href="orders.html">
+          <span class="returns-text">Returns</span>
+          <span class="orders-text">& Orders</span>
+        </a>
+
+        <a class="cart-link header-link" href="checkout.html">
+          <img class="cart-icon" src="images/icons/cart-icon.png">
+          <div class="cart-quantity js-cart-quantity">0</div>
+          <div class="cart-text">Cart</div>
+        </a>
+      </div>
+    </div>
+    <main>
+
+      <div class="slider">
+          <div class="slides" id="main">
+
+              <!--radio button staart-->
+              <input type="radio" name="radio-btn" id="radio1">
+              <input type="radio" name="radio-btn" id="radio2">
+              <input type="radio" name="radio-btn" id="radio3">
+              <input type="radio" name="radio-btn" id="radio4">
+              <input type="radio" name="radio-btn" id="radio5">
+              <!--radio button end-->
+
+              <div class="slide first">
+                  <img class="img_slide" src="img/r1.webp" alt="">
+              </div>
+              <div class="slide">
+                  <img class="img_slide" src="img/r2.jpeg" alt="">
+              </div>
+              <div class="slide">
+                  <img class="img_slide" src="img/r3.png" alt="">
+              </div>
+              <div class="slide">
+                  <img class="img_slide" src="img/r4.webp" alt="">
+              </div>
+              <div class="slide">
+                <img class="img_slide" src="img/r5.webp" alt="">
+            </div>
+
+              <!-- Automatic navigation start -->
+              <div class="navigation-auto">
+                  <div class="auto-btn1"></div>
+                  <div class="auto-btn2"></div>
+                  <div class="auto-btn3"></div>
+                  <div class="auto-btn4"></div>
+                  <div class="auto-btn5"></div>
+
+              </div>
+              <!-- Automatic navigation end -->
+
+              <!-- Manual Navigation Start -->
+              <div class="navigation-manual">
+                  <label for="radio1" class="manual-btn"></label>
+                  <label for="radio2" class="manual-btn"></label>
+                  <label for="radio3" class="manual-btn"></label>
+                  <label for="radio4" class="manual-btn"></label>
+                  <label for="radio5" class="manual-btn"></label>
+
+              </div>
+              <!-- Manual navigation End -->
+          </div>
+      </div>
+  </main>
+    
+    <div class="main">
+      <div class="products-grid js-product-grid">
+      </div>
+    </div>
+    <!-- <script src="data/cart.js"></script> -->
+    <!-- <script src="data/products.js"></script>  -->
+    <!-- product.js helps to crate a list under which all product detais are filled..  -->
+    <script type="module" src="script/amazon.js"></script>   
+    <!-- amazon.js helps to make a loop and diaply the product one by one... -->
+    <script src="slide.js"></script>
+  </body>
+</html>
