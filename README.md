@@ -24,7 +24,7 @@ This project is an Amazon clone built using HTML, CSS, and JavaScript.
 - JavaScript
 
 ### How to Use
-1. Clone the repository: `git clone https://github.com/your-username/repository-name.git`
+1. Clone the repository: `https://github.com/nidhiupman568/AMAZON-CLONE.git`
 2. Open `index.html` in your web browser to explore the application.
 
 
