@@ -2,6 +2,8 @@
 
 🎉Welcome to my Amazon clone! This project is an Amazon clone built using HTML, CSS, and JavaScript. 🌐✨
 
+Project Demo: https://nidhiupman568.github.io/AMAZON-CLONE/
+
 ## 🌟 Features 🌟
 
 ### 🏠 Home Page 🏠
